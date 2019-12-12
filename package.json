@@ -1,0 +1,32 @@
+{
+  "name": "forms-for-test",
+  "version": "1.0.0",
+  "description": "form server to tests angular and react applications",
+  "main": "src/main.js",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3333"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wintersocram/forms-for-test.git"
+  },
+  "author": "Valois, M (wintersocram)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wintersocram/forms-for-test/issues"
+  },
+  "homepage": "https://github.com/wintersocram/forms-for-test#readme",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "body-parser": "^1.19.0",
+    "cities": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
